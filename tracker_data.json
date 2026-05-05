@@ -53,12 +53,12 @@
   },
   {
     "id": 1777973552282,
-    "company": "Union Coliving",
-    "cohort": "Coliving",
-    "ap": "100",
+    "company": "K Raheja Corp.",
+    "cohort": "Hospitality",
+    "ap": "1000+",
     "stage": "Outreach started",
     "nextDate": "",
-    "action": "Send proposal",
+    "action": "Connection request sent",
     "notes": "",
     "kdms": [
       {
@@ -68,6 +68,16 @@
         "role": "Decision Maker",
         "stage": "Replied",
         "touch": 3,
+        "date": "05 May 2026",
+        "notes": ""
+      },
+      {
+        "id": 1777974513058.1848,
+        "name": "Vinod Rohira",
+        "desig": "Managing Director and CEO – Commercial Real Estate",
+        "role": "Influencer",
+        "stage": "Request sent",
+        "touch": 1,
         "date": "05 May 2026",
         "notes": ""
       }
