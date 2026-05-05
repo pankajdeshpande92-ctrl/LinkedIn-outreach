@@ -72,5 +72,27 @@
         "notes": ""
       }
     ]
+  },
+  {
+    "id": "acc_1777974633687",
+    "company": "Union Coliving",
+    "cohort": "Hospitality",
+    "ap": "100+",
+    "stage": "Outreach started",
+    "nextDate": "",
+    "action": "Send proposal",
+    "notes": "",
+    "kdms": [
+      {
+        "id": "kdm_1777974633687_7336",
+        "name": "Parth Soni",
+        "desig": "Founder & COO",
+        "role": "Decision Maker",
+        "stage": "Replied",
+        "touch": 1,
+        "date": "05 May 2026",
+        "notes": "Have asked for the deck, discussing it internally."
+      }
+    ]
   }
 ]
