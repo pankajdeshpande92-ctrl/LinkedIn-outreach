@@ -8,7 +8,6 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Segoe UI',Arial,sans-serif;background:#f4f6f9;color:#1a1a2e;font-size:14px;min-height:100vh}
 
-/* CONFIG SCREEN */
 #config-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
 .config-card{background:#fff;border-radius:12px;border:1px solid #dde3ed;padding:36px;width:480px;max-width:100%}
 .config-logo{font-size:13px;font-weight:700;color:#001F5B;letter-spacing:0.5px;margin-bottom:24px;text-transform:uppercase}
@@ -25,14 +24,12 @@ body{font-family:'Segoe UI',Arial,sans-serif;background:#f4f6f9;color:#1a1a2e;fo
 .config-step{display:flex;gap:10px;margin-bottom:10px;font-size:12px;color:#555;line-height:1.5}
 .config-step-num{background:#001F5B;color:#fff;border-radius:50%;width:20px;height:20px;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;flex-shrink:0;margin-top:1px}
 
-/* SYNC STATUS */
 #sync-bar{background:#001F5B;color:#fff;padding:8px 28px;font-size:12px;display:flex;align-items:center;justify-content:space-between}
 .sync-dot{width:8px;height:8px;border-radius:50%;background:#4ade80;display:inline-block;margin-right:6px}
 .sync-dot.syncing{background:#fcd34d;animation:pulse 1s infinite}
 .sync-dot.error{background:#f87171}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
 
-/* MAIN APP */
 #app{display:none}
 header{background:#001F5B;color:#fff;padding:14px 28px;display:flex;align-items:center;justify-content:space-between}
 header h1{font-size:15px;font-weight:700;letter-spacing:0.3px}
@@ -46,7 +43,6 @@ header h1{font-size:15px;font-weight:700;letter-spacing:0.3px}
 .content{padding:24px 28px;max-width:1200px}
 .section{display:none}.section.active{display:block}
 
-/* KPI */
 .kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:24px}
 .kpi{background:#fff;border-radius:8px;padding:16px;border:1px solid #dde3ed}
 .kpi.highlight{border-left:4px solid #001F5B}
@@ -54,7 +50,6 @@ header h1{font-size:15px;font-weight:700;letter-spacing:0.3px}
 .kpi-val{font-size:26px;font-weight:700;color:#001F5B}
 .kpi-sub{font-size:11px;color:#aaa;margin-top:3px}
 
-/* Funnel */
 .funnel-wrap{background:#fff;border-radius:8px;padding:20px;border:1px solid #dde3ed;margin-bottom:20px}
 .funnel-title{font-size:13px;font-weight:600;color:#001F5B;margin-bottom:14px}
 .funnel{display:flex;gap:3px;height:62px}
@@ -63,7 +58,6 @@ header h1{font-size:15px;font-weight:700;letter-spacing:0.3px}
 .f-label{font-size:10px;color:#444;margin-top:3px;text-align:center}
 .rule-box{background:#EBF0FF;border-left:3px solid #001F5B;border-radius:0 6px 6px 0;padding:10px 14px;font-size:12px;color:#001F5B;margin-top:4px}
 
-/* Table */
 .table-toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;flex-wrap:wrap;gap:8px}
 .table-toolbar-left{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 table{width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;border:1px solid #dde3ed;font-size:13px}
@@ -77,7 +71,6 @@ tr:last-child td{border-bottom:none}
 .kdm-sub-table td{padding:7px 10px;border-bottom:1px solid #f0f0f0;background:#fff}
 .kdm-sub-table tr:last-child td{border-bottom:none}
 
-/* Badges */
 .badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;white-space:nowrap}
 .b-blue{background:#dbeafe;color:#1e40af}
 .b-amber{background:#fef3c7;color:#92400e}
@@ -89,7 +82,6 @@ tr:last-child td{border-bottom:none}
 .b-navy{background:#e0e7ff;color:#1e3a8a}
 .ctag{display:inline-block;padding:2px 7px;border-radius:3px;font-size:11px;font-weight:600}
 
-/* Buttons */
 .btn{padding:8px 16px;font-size:13px;cursor:pointer;border-radius:6px;border:1px solid #ccc;background:#fff;font-family:inherit;font-weight:500}
 .btn-primary{background:#001F5B;color:#fff;border-color:#001F5B}
 .btn-primary:hover{background:#00307a}
@@ -99,7 +91,6 @@ tr:last-child td{border-bottom:none}
 .btn-edit{background:#f0f4ff;color:#001F5B;border-color:#b0c4f8}
 .expand-btn{background:none;border:none;cursor:pointer;font-size:14px;color:#001F5B;padding:2px 6px;font-weight:700}
 
-/* Form */
 .form-card{background:#fff;border-radius:8px;border:1px solid #dde3ed;padding:24px}
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
 .form-row.three{grid-template-columns:1fr 1fr 1fr}
@@ -112,20 +103,17 @@ textarea{height:60px;resize:vertical}
 .form-msg{font-size:12px;color:#065f46;margin-top:8px;font-weight:500}
 .form-err{font-size:12px;color:#991b1b;margin-top:8px;font-weight:500}
 
-/* KDM inline block */
 .kdm-entry-block{background:#f4f6f9;border-radius:6px;border:1px solid #dde3ed;padding:14px;margin-bottom:10px;position:relative}
 .kdm-entry-title{font-size:11px;font-weight:700;color:#001F5B;text-transform:uppercase;letter-spacing:0.4px;margin-bottom:10px}
 .remove-kdm-btn{position:absolute;top:10px;right:10px;background:none;border:none;cursor:pointer;color:#aaa;font-size:16px}
 .remove-kdm-btn:hover{color:#991b1b}
 
-/* Modal */
 .modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.4);z-index:200;align-items:center;justify-content:center}
 .modal-overlay.open{display:flex}
 .modal{background:#fff;border-radius:10px;padding:24px;width:520px;max-width:95vw;box-shadow:0 8px 32px rgba(0,0,0,0.18);max-height:90vh;overflow-y:auto}
 .modal-title{font-size:15px;font-weight:700;color:#001F5B;margin-bottom:16px;border-bottom:1px solid #eef0f5;padding-bottom:10px}
 .modal-footer{display:flex;gap:8px;margin-top:16px;border-top:1px solid #eef0f5;padding-top:14px}
 
-/* Cards */
 .card{background:#fff;border-radius:8px;border:1px solid #dde3ed;padding:16px;margin-bottom:12px}
 .card-label{font-size:11px;font-weight:700;color:#001F5B;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px}
 .card-text{font-size:13px;color:#333;line-height:1.7;white-space:pre-wrap}
@@ -143,45 +131,36 @@ textarea{height:60px;resize:vertical}
 </head>
 <body>
 
-<!-- CONFIG SCREEN -->
 <div id="config-screen">
   <div class="config-card">
     <div class="config-logo">Jio Enterprise · Managed WiFi</div>
     <div class="config-title">LinkedIn Outreach Tracker</div>
-    <div class="config-sub">One-time setup. Enter your GitHub details below to enable live sync across all devices.</div>
-
+    <div class="config-sub">One-time setup. Enter your GitHub token to connect.</div>
     <hr class="config-divider">
     <div style="margin-bottom:16px">
-      <div style="font-size:12px;font-weight:700;color:#001F5B;margin-bottom:8px">How to get your GitHub token (2 min):</div>
-      <div class="config-step"><div class="config-step-num">1</div><div>Go to <strong>github.com → Settings → Developer Settings → Personal Access Tokens → Tokens (classic)</strong></div></div>
-      <div class="config-step"><div class="config-step-num">2</div><div>Click <strong>Generate new token (classic)</strong>. Set expiry to <strong>No expiration</strong>.</div></div>
-      <div class="config-step"><div class="config-step-num">3</div><div>Under <strong>Scopes</strong>, check only <strong>repo</strong>. Generate and copy the token.</div></div>
-      <div class="config-step"><div class="config-step-num">4</div><div>Create a new <strong>public repo</strong> on GitHub named e.g. <code>jio-tracker-data</code>. Add a blank README so it initialises.</div></div>
+      <div style="font-size:12px;font-weight:700;color:#001F5B;margin-bottom:8px">Your details are pre-filled. Just enter your token:</div>
+      <div class="config-step"><div class="config-step-num">1</div><div>GitHub → Settings → Developer Settings → Personal Access Tokens → Tokens (classic)</div></div>
+      <div class="config-step"><div class="config-step-num">2</div><div>Generate new token (classic) → Scope: tick <strong>repo</strong> only → No expiration → Copy token</div></div>
     </div>
     <hr class="config-divider">
-
     <label class="config-label">GitHub Username</label>
-    <input type="text" class="config-input" id="cfg-user" placeholder="your-github-username">
-
+    <input type="text" class="config-input" id="cfg-user" value="pankajdeshpande92-ctrl" readonly style="background:#f4f6f9;color:#888">
     <label class="config-label">Repository Name</label>
-    <input type="text" class="config-input" id="cfg-repo" placeholder="jio-tracker-data">
-
+    <input type="text" class="config-input" id="cfg-repo" value="LinkedIn-outreach" readonly style="background:#f4f6f9;color:#888">
     <label class="config-label">Personal Access Token</label>
     <input type="text" class="config-input" id="cfg-token" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
-    <div class="config-hint">Stored only in this browser's localStorage. Anyone with the page link can view data but cannot see your token unless they view browser storage on your device.</div>
-
-    <button class="config-btn" onclick="connectGitHub()">Connect & Load Tracker →</button>
+    <div class="config-hint">Stored only in this browser. Anyone with the page link can view data but cannot edit without the token.</div>
+    <button class="config-btn" onclick="connectGitHub()">Connect & Open Tracker →</button>
     <div class="config-err" id="cfg-err"></div>
   </div>
 </div>
 
-<!-- MAIN APP -->
 <div id="app">
   <div id="sync-bar">
-    <div><span class="sync-dot" id="sync-dot"></span><span id="sync-status">Connected to GitHub</span></div>
+    <div><span class="sync-dot" id="sync-dot"></span><span id="sync-status">Connected</span></div>
     <div style="display:flex;align-items:center;gap:12px">
       <span id="sync-time" style="font-size:11px;opacity:0.7"></span>
-      <button class="logout-btn" onclick="logout()">Change Config</button>
+      <button class="logout-btn" onclick="logout()">Change Token</button>
     </div>
   </div>
 
@@ -197,12 +176,10 @@ textarea{height:60px;resize:vertical}
     <button class="tab" onclick="switchTab('accounts')">Accounts</button>
     <button class="tab" onclick="switchTab('add-account')">Add / Edit</button>
     <button class="tab" onclick="switchTab('messages')">Templates</button>
-    <button class="tab" onclick="switchTab('rules')">Rules</button>
   </div>
 
   <div class="content">
 
-    <!-- DASHBOARD -->
     <div id="tab-dashboard" class="section active">
       <div class="kpi-grid" id="kpi-grid"></div>
       <div class="funnel-wrap">
@@ -212,7 +189,6 @@ textarea{height:60px;resize:vertical}
       <div class="rule-box">Target: 4 meetings/month → 2 pilots/month → 1 deal/month &nbsp;|&nbsp; Min AP floor: 100 APs &nbsp;|&nbsp; Min 2 KDMs per account before marking Dead</div>
     </div>
 
-    <!-- ACCOUNTS -->
     <div id="tab-accounts" class="section">
       <div class="table-toolbar">
         <div class="table-toolbar-left">
@@ -241,7 +217,6 @@ textarea{height:60px;resize:vertical}
       </div>
     </div>
 
-    <!-- ADD/EDIT -->
     <div id="tab-add-account" class="section">
       <div class="form-card">
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
@@ -276,16 +251,11 @@ textarea{height:60px;resize:vertical}
       </div>
     </div>
 
-    <!-- TEMPLATES -->
     <div id="tab-messages" class="section"><div id="msg-cards"></div></div>
-
-    <!-- RULES -->
-    <div id="tab-rules" class="section"><div id="rules-cards"></div></div>
 
   </div>
 </div>
 
-<!-- KDM MODAL -->
 <div class="modal-overlay" id="kdm-modal">
   <div class="modal">
     <div class="modal-title" id="modal-title">KDM Details</div>
@@ -316,51 +286,47 @@ textarea{height:60px;resize:vertical}
 </div>
 
 <script>
-// ── CONFIG ────────────────────────────────────────────────────
-const CFG_KEY  = 'jio_gh_config_v1';
-const DATA_FILE = 'tracker_data.json';
+const CFG_KEY='jio_gh_config_v1';
+const DATA_FILE='tracker_data.json';
+const FIXED_USER='pankajdeshpande92-ctrl';
+const FIXED_REPO='LinkedIn-outreach';
 
-let ghUser='', ghRepo='', ghToken='', ghFileSha='';
+let ghToken='', ghFileSha='';
 let accounts=[];
 let editAccountId=null, editKDMId=null, currentAccountId=null;
 let expandedAccounts={}, kdmFieldCount=0;
 
-function getConfig(){ try{ return JSON.parse(localStorage.getItem(CFG_KEY))||null; }catch(e){return null;} }
-function saveConfig(u,r,t){ localStorage.setItem(CFG_KEY,JSON.stringify({u,r,t})); }
+function getConfig(){ try{return JSON.parse(localStorage.getItem(CFG_KEY))||null;}catch(e){return null;} }
+function saveConfig(t){ localStorage.setItem(CFG_KEY,JSON.stringify({u:FIXED_USER,r:FIXED_REPO,t})); }
 
-// ── INIT ──────────────────────────────────────────────────────
 (function init(){
   document.getElementById('header-date').textContent=new Date().toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short',year:'numeric'});
   const cfg=getConfig();
-  if(cfg&&cfg.u&&cfg.r&&cfg.t){
-    ghUser=cfg.u; ghRepo=cfg.r; ghToken=cfg.t;
+  if(cfg&&cfg.t){
+    ghToken=cfg.t;
     document.getElementById('config-screen').style.display='none';
     document.getElementById('app').style.display='block';
     loadFromGitHub();
   }
 })();
 
-// ── GITHUB API ────────────────────────────────────────────────
-function apiUrl(){ return `https://api.github.com/repos/${ghUser}/${ghRepo}/contents/${DATA_FILE}`; }
-function apiHeaders(){ return {'Authorization':'token '+ghToken,'Content-Type':'application/json','Accept':'application/vnd.github.v3+json'}; }
+function apiUrl(){return `https://api.github.com/repos/${FIXED_USER}/${FIXED_REPO}/contents/${DATA_FILE}`;}
+function apiHeaders(){return{'Authorization':'token '+ghToken,'Content-Type':'application/json','Accept':'application/vnd.github.v3+json'};}
 
 async function loadFromGitHub(){
   setSyncStatus('syncing','Loading from GitHub...');
   try{
     const res=await fetch(apiUrl(),{headers:apiHeaders()});
     if(res.status===404){
-      // File doesn't exist yet — start with seed data
       accounts=seedData();
       ghFileSha='';
       await pushToGitHub('Initial data');
     } else if(!res.ok){
-      const err=await res.json();
-      throw new Error(err.message||'GitHub API error');
+      const e=await res.json();throw new Error(e.message||'GitHub API error');
     } else {
       const json=await res.json();
       ghFileSha=json.sha;
-      const decoded=JSON.parse(atob(json.content.replace(/\n/g,'')));
-      accounts=decoded||[];
+      accounts=JSON.parse(atob(json.content.replace(/\n/g,'')))||[];
     }
     setSyncStatus('ok','Synced · '+timeNow());
     renderDashboard();
@@ -370,15 +336,12 @@ async function loadFromGitHub(){
 }
 
 async function pushToGitHub(msg){
-  setSyncStatus('syncing','Saving to GitHub...');
+  setSyncStatus('syncing','Saving...');
   try{
     const body={message:msg||'Update '+timeNow(),content:btoa(unescape(encodeURIComponent(JSON.stringify(accounts,null,2))))};
     if(ghFileSha) body.sha=ghFileSha;
     const res=await fetch(apiUrl(),{method:'PUT',headers:apiHeaders(),body:JSON.stringify(body)});
-    if(!res.ok){
-      const err=await res.json();
-      throw new Error(err.message||'Push failed');
-    }
+    if(!res.ok){const e=await res.json();throw new Error(e.message||'Push failed');}
     const json=await res.json();
     ghFileSha=json.content.sha;
     setSyncStatus('ok','Saved · '+timeNow());
@@ -393,41 +356,35 @@ function setSyncStatus(state,msg){
   const txt=document.getElementById('sync-status');
   dot.className='sync-dot'+(state==='syncing'?' syncing':state==='error'?' error':'');
   txt.textContent=msg;
-  if(state!=='syncing') document.getElementById('sync-time').textContent='';
 }
 
-function timeNow(){ return new Date().toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'}); }
+function timeNow(){return new Date().toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});}
 
-// ── CONNECT ───────────────────────────────────────────────────
 async function connectGitHub(){
-  const u=document.getElementById('cfg-user').value.trim();
-  const r=document.getElementById('cfg-repo').value.trim();
   const t=document.getElementById('cfg-token').value.trim();
   const errEl=document.getElementById('cfg-err');
   errEl.textContent='';
-  if(!u||!r||!t){errEl.textContent='All three fields are required.';return;}
-  ghUser=u; ghRepo=r; ghToken=t;
+  if(!t){errEl.textContent='Please enter your token.';return;}
+  ghToken=t;
   errEl.textContent='Connecting...';
   try{
-    // Verify token works by checking repo
-    const res=await fetch(`https://api.github.com/repos/${u}/${r}`,{headers:apiHeaders()});
+    const res=await fetch(`https://api.github.com/repos/${FIXED_USER}/${FIXED_REPO}`,{headers:apiHeaders()});
     if(!res.ok){const e=await res.json();throw new Error(e.message||'Cannot access repo');}
-    saveConfig(u,r,t);
+    saveConfig(t);
     document.getElementById('config-screen').style.display='none';
     document.getElementById('app').style.display='block';
     loadFromGitHub();
   } catch(e){
-    errEl.textContent='Error: '+e.message+'. Check username, repo name and token.';
+    errEl.textContent='Error: '+e.message+'. Check your token and repo access.';
   }
 }
 
 function logout(){
-  if(!confirm('This will clear your config from this browser. Your GitHub data is safe. Continue?')) return;
+  if(!confirm('Clear token from this browser? Your GitHub data stays safe.')) return;
   localStorage.removeItem(CFG_KEY);
   location.reload();
 }
 
-// ── SEED DATA ─────────────────────────────────────────────────
 function seedData(){
   return [{
     id:1,company:'Nexus Malls',cohort:'Malls',ap:'2000+',stage:'Outreach started',
@@ -440,7 +397,6 @@ function seedData(){
   }];
 }
 
-// ── LOOKUPS ───────────────────────────────────────────────────
 const cohortColors={Hospitality:'#dbeafe',Coworking:'#d1fae5',Coliving:'#ede9fe',Education:'#dcfce7',Malls:'#fef3c7',Other:'#f3f4f6'};
 const cohortText={Hospitality:'#1e40af',Coworking:'#065f46',Coliving:'#4c1d95',Education:'#166534',Malls:'#92400e',Other:'#374151'};
 const stageBadge={'Outreach started':'b-blue','Meeting booked':'b-teal','Pilot agreed':'b-green','Deal confirmed':'b-green','Dead':'b-red'};
@@ -449,7 +405,6 @@ const roleBadge={'Decision Maker':'b-red','Influencer':'b-amber','Champion':'b-g
 const funnelStages=['Outreach started','Meeting booked','Pilot agreed','Deal confirmed'];
 const funnelColors=['#93c5fd','#6ee7b7','#fcd34d','#4ade80'];
 
-// ── TAB ───────────────────────────────────────────────────────
 function switchTab(t){
   document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));
   document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
@@ -460,41 +415,27 @@ function switchTab(t){
   if(t==='dashboard') renderDashboard();
   if(t==='accounts')  renderAccounts();
   if(t==='messages')  renderMessages();
-  if(t==='rules')     renderRules();
 }
 
-// ── DASHBOARD ─────────────────────────────────────────────────
 function renderDashboard(){
   const counts=funnelStages.map(s=>accounts.filter(a=>a.stage===s).length);
   const totalKDMs=accounts.reduce((a,acc)=>a+(acc.kdms||[]).length,0);
   const replied=accounts.reduce((a,acc)=>a+(acc.kdms||[]).filter(k=>k.stage==='Replied'||k.stage==='Meeting scheduled').length,0);
   const totalAP=accounts.filter(a=>a.stage==='Deal confirmed').reduce((s,a)=>{const n=parseInt((a.ap||'0').replace(/\D/g,''));return s+(isNaN(n)?0:n);},0);
   const pipeline=accounts.filter(a=>a.stage==='Pilot agreed'||a.stage==='Meeting booked').reduce((s,a)=>{const n=parseInt((a.ap||'0').replace(/\D/g,''));return s+(isNaN(n)?0:n);},0);
-
   const kpis=[
     {label:'Accounts tracked',val:accounts.length,sub:'total',hl:false},
     {label:'Total KDMs',val:totalKDMs,sub:'across accounts',hl:false},
-    {label:'KDMs engaged',val:replied,sub:'replied or meeting set',hl:true},
+    {label:'KDMs engaged',val:replied,sub:'replied or meeting',hl:true},
     {label:'Meetings booked',val:counts[1],sub:'account level',hl:true},
     {label:'Pilots agreed',val:counts[2],sub:'in progress',hl:false},
     {label:'AP pipeline',val:pipeline?pipeline.toLocaleString()+'*':'—',sub:'meetings + pilots',hl:false},
     {label:'APs confirmed',val:totalAP?totalAP.toLocaleString():'—',sub:'closed deals',hl:true},
   ];
-  document.getElementById('kpi-grid').innerHTML=kpis.map(k=>`
-    <div class="kpi${k.hl?' highlight':''}">
-      <div class="kpi-label">${k.label}</div>
-      <div class="kpi-val">${k.val}</div>
-      <div class="kpi-sub">${k.sub}</div>
-    </div>`).join('');
-
-  document.getElementById('funnel-bar').innerHTML=funnelStages.map((s,i)=>`
-    <div class="funnel-step" style="background:${funnelColors[i]}">
-      <div class="f-num">${counts[i]}</div>
-      <div class="f-label">${s}</div>
-    </div>`).join('');
+  document.getElementById('kpi-grid').innerHTML=kpis.map(k=>`<div class="kpi${k.hl?' highlight':''}"><div class="kpi-label">${k.label}</div><div class="kpi-val">${k.val}</div><div class="kpi-sub">${k.sub}</div></div>`).join('');
+  document.getElementById('funnel-bar').innerHTML=funnelStages.map((s,i)=>`<div class="funnel-step" style="background:${funnelColors[i]}"><div class="f-num">${counts[i]}</div><div class="f-label">${s}</div></div>`).join('');
 }
 
-// ── ACCOUNTS ──────────────────────────────────────────────────
 function renderAccounts(){
   const stage=document.getElementById('filter-stage').value;
   const cohort=document.getElementById('filter-cohort').value;
@@ -523,7 +464,7 @@ function renderAccounts(){
     </tr>`;
     if(exp){
       rows+=`<tr><td></td><td colspan="7" style="padding:0 0 10px 12px">`;
-      if(!kdms.length){rows+=`<div style="font-size:12px;color:#888;padding:8px">No KDMs yet.</div>`;}
+      if(!kdms.length){rows+=`<div style="font-size:12px;color:#888;padding:8px">No KDMs yet. Click "+ KDM" to add.</div>`;}
       else{
         rows+=`<table class="kdm-sub-table"><thead><tr><th>Name</th><th>Designation</th><th>Role</th><th>LI Stage</th><th>Touch</th><th>Last Touch</th><th>Notes</th><th></th></tr></thead><tbody>`;
         kdms.forEach(k=>{
@@ -552,13 +493,10 @@ function renderAccounts(){
 
 function toggleExpand(id){expandedAccounts[id]=!expandedAccounts[id];renderAccounts();}
 
-// ── ADD/EDIT ACCOUNT ──────────────────────────────────────────
 function addKDMField(){
   kdmFieldCount++;
-  const fid=Date.now();
   const div=document.createElement('div');
   div.className='kdm-entry-block';
-  div.setAttribute('data-fid',fid);
   div.innerHTML=`<div class="kdm-entry-title">KDM ${kdmFieldCount}</div>
     <button class="remove-kdm-btn" onclick="this.parentElement.remove()">×</button>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px">
@@ -600,12 +538,12 @@ async function saveAccount(){
   else{accounts.push(obj);}
   showFormMsg('Saving to GitHub...','ok');
   try{
-    await pushToGitHub('Update account: '+company);
+    await pushToGitHub('Update: '+company);
     clearAccountForm();
-    showFormMsg('Saved & synced to GitHub.','ok');
+    showFormMsg('Saved & synced.','ok');
     setTimeout(()=>showFormMsg('','ok'),3000);
   } catch(e){
-    showFormMsg('Saved locally but GitHub sync failed: '+e.message,'err');
+    showFormMsg('GitHub sync failed: '+e.message,'err');
   }
 }
 
@@ -627,7 +565,7 @@ function editAccount(id){
 }
 
 async function deleteAccount(id){
-  if(!confirm('Delete this account and all KDMs?')) return;
+  if(!confirm('Delete this account and all KDMs?'))return;
   accounts=accounts.filter(a=>a.id!==id);
   await pushToGitHub('Delete account');
   renderAccounts();
@@ -648,7 +586,6 @@ function showFormMsg(msg,type){
   el.textContent=msg;el.className=type==='err'?'form-err':'form-msg';
 }
 
-// ── KDM MODAL ─────────────────────────────────────────────────
 function openAddKDM(accId){
   currentAccountId=accId;editKDMId=null;
   const acc=accounts.find(a=>a.id===accId);
@@ -699,9 +636,8 @@ async function deleteKDM(accId,kdmId){
 function closeModal(){document.getElementById('kdm-modal').classList.remove('open');}
 document.getElementById('kdm-modal').addEventListener('click',function(e){if(e.target===this)closeModal();});
 
-// ── TEMPLATES ─────────────────────────────────────────────────
 const messages=[
-  {label:'Touch 1 — Connection request (no note)',text:'Send the request with NO note.'},
+  {label:'Touch 1 — Connection request (no note)',text:'Send the request with NO note. A note reduces acceptance rate. Wait for acceptance before any message.'},
   {label:'Touch 2 — Day 3 post-accept (Hospitality)',text:'Hi [Name], noticed [Hotel Chain] has been expanding — [X] properties is impressive.\n\nOne friction point we keep seeing: WiFi capex gets buried in budgets, then becomes someone\'s internal headache to manage, upgrade and fix.\n\nWe\'ve moved comparable chains to a fully managed model — no hardware ownership, 24x7 NOC, Rs. 1,000/AP/month. Fully opex, fully our problem.\n\nHappy to show you a 10-minute demo — would [Date] work?'},
   {label:'Touch 2 — Day 3 post-accept (Coworking)',text:'Hi [Name], scaling locations is one thing — keeping WiFi consistent across all of them is an entirely different problem.\n\nWe manage WiFi end-to-end for coworking operators. Zero upfront, Rs. 1,000/AP/month, one dashboard for all sites. If a member complains, it\'s Jio\'s field team\'s problem — not yours.\n\nCan we get 20 minutes? I\'d rather show you the dashboard than explain it.'},
   {label:'Touch 2 — Day 3 post-accept (Education)',text:'Hi [Name], with [University] across [X] campuses, student WiFi SLAs must be a constant pressure — especially when IT is stretched thin.\n\nJio manages campus WiFi end-to-end on a per-AP subscription. STQC certified, 24x7 NOC, no capex.\n\nWorth 20 minutes — could we connect [date/week]?'},
@@ -712,20 +648,6 @@ const messages=[
 
 function renderMessages(){
   document.getElementById('msg-cards').innerHTML=messages.map(m=>`<div class="card"><div class="card-label">${m.label}</div><div class="card-text">${esc(m.text)}</div></div>`).join('');
-}
-
-// ── RULES ─────────────────────────────────────────────────────
-const rules=[
-  {label:'Who qualifies for your personal outreach',text:'Min 100 AP potential (your floor, not KAMs\')\nMulti-location operator (5+ sites preferred)\nDecision-maker: CEO, COO, MD, VP Ops, VP IT, VP Facilities, CTO\nPriority cohorts: Hospitality, Coworking, Coliving, Education, Malls\nVerify: not already KAM-owned before reaching out'},
-  {label:'Multi-KDM rule (non-negotiable)',text:'Minimum 2 KDMs per account before marking Dead\nAlways contact:\n  → Business: CEO / COO / VP Operations\n  → Tech/Infra: VP IT / CTO / Head Facilities\nDocument every KDM separately — own stage, own touch count\nSingle-thread risk on a whale deal is unacceptable'},
-  {label:'3-touch rule per KDM',text:'Touch 1: Connection request — NO message\nTouch 2: Day 3 post-accept — value message, soft meeting ask\nTouch 3: Day 10, no reply — final nudge, one line\n\nAfter Touch 3 with no response → mark KDM "No response – dead"\nMove to next KDM. Never chase same person 4 times.'},
-  {label:'Account stage logic',text:'"Outreach started"  — at least 1 KDM contacted\n"Meeting booked"    — any KDM confirms a meeting\n"Pilot agreed"      — commercial terms agreed with DM\n"Dead"              — all KDMs at 3 touches, zero response'},
-  {label:'Weekly non-negotiables',text:'10 new connection requests sent\n5 Touch-2 messages (from 3-day post-accept queue)\n1 meeting booked minimum\nAll KDM activity logged same day — not end of week'},
-  {label:'Monthly review metrics',text:'Accept rate: target >40%\nReply rate: target >20% of accepted\nMeeting conversion: target >30% of replies\nPilot conversion: target >50% of meetings\nIf >60% dying at Touch 2 → rewrite the message, don\'t push harder'},
-];
-
-function renderRules(){
-  document.getElementById('rules-cards').innerHTML=rules.map(r=>`<div class="card"><div class="card-label">${r.label}</div><div class="card-text">${esc(r.text)}</div></div>`).join('');
 }
 
 function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
