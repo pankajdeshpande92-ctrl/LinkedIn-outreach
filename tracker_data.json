@@ -54,7 +54,7 @@
       {
         "id": "1777974513058.1848",
         "name": "Vinod Rohira",
-        "desig": "Managing Director and CEO â Commercial Real Estate",
+        "desig": "Managing Director and CEO Ã¢ÂÂ Commercial Real Estate",
         "role": "Influencer",
         "stage": "Request sent",
         "touch": 1,
@@ -82,6 +82,28 @@
         "touch": 1,
         "date": "05 May 2026",
         "notes": "Have asked for the deck, discussing it internally."
+      }
+    ]
+  },
+  {
+    "id": "acc_1777976033220",
+    "company": "Hines India",
+    "cohort": "Coworking",
+    "ap": "500+",
+    "stage": "Outreach started",
+    "nextDate": "",
+    "action": "",
+    "notes": "",
+    "kdms": [
+      {
+        "id": "kdm_1777976033220_7806",
+        "name": "Amit Diwan",
+        "desig": "Sr Managing Director and Country Head",
+        "role": "Decision Maker",
+        "stage": "Request sent",
+        "touch": 1,
+        "date": "05 May 2026",
+        "notes": ""
       }
     ]
   }
