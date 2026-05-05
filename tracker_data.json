@@ -22,12 +22,42 @@
       {
         "id": 102,
         "name": "Rakesh Mehta",
-        "desig": "VP – IT Infrastructure",
+        "desig": "VP â IT Infrastructure",
         "role": "Influencer",
         "stage": "Connected",
         "date": "04 May 2026",
         "touch": 1,
         "notes": "Connected. Touch 2 pending."
+      },
+      {
+        "id": 1777972040442.4026,
+        "name": "Jayen Naik",
+        "desig": "President - Operations",
+        "role": "Influencer",
+        "stage": "Connected",
+        "touch": 1,
+        "date": "14 April 2026",
+        "notes": "Aligned Sr VP Business Excellence"
+      },
+      {
+        "id": 1777972040442.379,
+        "name": "Nilesh Singh",
+        "desig": "Sr. VP - ESG & Business Excellence",
+        "role": "Decision Maker",
+        "stage": "Connected",
+        "touch": 2,
+        "date": "20 April 2026",
+        "notes": "Aligned GM IT"
+      },
+      {
+        "id": 1777972040442.4282,
+        "name": "Kamlesh Prasad",
+        "desig": "GM IT",
+        "role": "Decision Maker",
+        "stage": "Request sent",
+        "touch": 2,
+        "date": "04 May 2026",
+        "notes": "Not responding to calls/ emails."
       }
     ]
   }
