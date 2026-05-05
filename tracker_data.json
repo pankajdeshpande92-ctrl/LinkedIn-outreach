@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "company": "Nexus Malls",
     "cohort": "Malls",
     "ap": "2000+",
@@ -10,7 +10,7 @@
     "notes": "17 malls across India. ESG angle works. Confusion on Managed WiFi resolved.",
     "kdms": [
       {
-        "id": 101,
+        "id": "101",
         "name": "Nilesh Jain",
         "desig": "Sr. VP ESG & Business Excellence",
         "role": "Decision Maker",
@@ -20,7 +20,7 @@
         "notes": "ESG + analytics framing worked. Awaiting proposal."
       },
       {
-        "id": 1777972040442.4026,
+        "id": "1777972040442.4026",
         "name": "Jayen Naik",
         "desig": "President - Operations",
         "role": "Influencer",
@@ -30,7 +30,7 @@
         "notes": "Aligned Sr VP Business Excellence"
       },
       {
-        "id": 1777972040442.379,
+        "id": "1777972040442.379",
         "name": "Nilesh Singh",
         "desig": "Sr. VP - ESG & Business Excellence",
         "role": "Decision Maker",
@@ -40,7 +40,7 @@
         "notes": "Aligned GM IT"
       },
       {
-        "id": 1777972040442.4282,
+        "id": "1777972040442.4282",
         "name": "Kamlesh Prasad",
         "desig": "GM IT",
         "role": "Decision Maker",
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "id": 1777973552282,
+    "id": "1777973552282",
     "company": "K Raheja Corp.",
     "cohort": "Hospitality",
     "ap": "1000+",
@@ -62,19 +62,9 @@
     "notes": "",
     "kdms": [
       {
-        "id": 1777973552282.5635,
-        "name": "Parth Soni",
-        "desig": "COO & Founder",
-        "role": "Decision Maker",
-        "stage": "Replied",
-        "touch": 3,
-        "date": "05 May 2026",
-        "notes": ""
-      },
-      {
-        "id": 1777974513058.1848,
+        "id": "1777974513058.1848",
         "name": "Vinod Rohira",
-        "desig": "Managing Director and CEO – Commercial Real Estate",
+        "desig": "Managing Director and CEO â Commercial Real Estate",
         "role": "Influencer",
         "stage": "Request sent",
         "touch": 1,
