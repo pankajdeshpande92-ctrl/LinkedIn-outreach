@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "company": "Nexus Malls",
+    "cohort": "Malls",
+    "ap": "2000+",
+    "stage": "Outreach started",
+    "nextDate": "10 May 2026",
+    "action": "Send pilot proposal email",
+    "notes": "17 malls across India. ESG angle works. Confusion on Managed WiFi resolved.",
+    "kdms": [
+      {
+        "id": 101,
+        "name": "Nilesh Jain",
+        "desig": "Sr. VP ESG & Business Excellence",
+        "role": "Decision Maker",
+        "stage": "Replied",
+        "date": "02 May 2026",
+        "touch": 2,
+        "notes": "ESG + analytics framing worked. Awaiting proposal."
+      },
+      {
+        "id": 102,
+        "name": "Rakesh Mehta",
+        "desig": "VP – IT Infrastructure",
+        "role": "Influencer",
+        "stage": "Connected",
+        "date": "04 May 2026",
+        "touch": 1,
+        "notes": "Connected. Touch 2 pending."
+      }
+    ]
+  }
+]
