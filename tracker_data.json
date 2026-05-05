@@ -60,37 +60,5 @@
         "notes": "Not responding to calls/ emails."
       }
     ]
-  },
-  {
-    "id": 1777972183456,
-    "company": "Union Coliving Spaces",
-    "cohort": "Coliving",
-    "ap": "100",
-    "stage": "Outreach started",
-    "nextDate": "",
-    "action": "Send pilot proposal",
-    "notes": "",
-    "kdms": [
-      {
-        "id": 1777972183456.5076,
-        "name": "Parth Soni",
-        "desig": "COO and Founder",
-        "role": "Decision Maker",
-        "stage": "Connected",
-        "touch": 1,
-        "date": "14 April 2026",
-        "notes": ""
-      },
-      {
-        "id": 1777973438272.743,
-        "name": "Parth Soni",
-        "desig": "COO and Founder",
-        "role": "Decision Maker",
-        "stage": "Connected",
-        "touch": 1,
-        "date": "05 May 2026",
-        "notes": "Asked for a desk, shared customer deck"
-      }
-    ]
   }
 ]
